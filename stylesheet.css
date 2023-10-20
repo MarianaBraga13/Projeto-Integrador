@@ -1,11 +1,11 @@
 :root {
-  --bg-color: #444446;
+  --bg-color: #4c4c4d;
   --secondary-bg-color: #919197;
-  --primary-color: #fff;
+  --primary-color: #25cc88;
   --secondary-color: #25cc88;
-  --text-color: #d3cee6;
+  --text-color: #fff;
   --border-color: #d9dae4;
-  --h1:#d9dae4;
+  
 }
 
 #checkout-page {
@@ -65,7 +65,7 @@
 }
 
 .step i {
-  background-color: var(--secondary-bg-color);
+  background-color: #fff;
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -114,7 +114,7 @@
 }
 
 #order-form-container label {
-  color: var(--text-color);
+  color: #dddde6;
 }
 
 #order-form-container input:disabled,
@@ -142,6 +142,6 @@
 /* Responsive */
 @media (min-width: 500px) {
   #save-btn {
-    width: 8em;
+    width: em;
   }
 }
